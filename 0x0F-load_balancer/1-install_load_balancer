@@ -44,7 +44,7 @@ backend pius_backend
            balance roundrobin
            server 153775-web-01 35.174.207.76:80 check
            server 153775-web-02 34.224.16.112:80 check
-
+EOT
 # enable haproxy to be started by init script
 
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
