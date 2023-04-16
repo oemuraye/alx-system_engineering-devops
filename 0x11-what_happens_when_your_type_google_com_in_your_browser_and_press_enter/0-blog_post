@@ -1,0 +1,28 @@
+👨‍💻Behind The Screen💻
+When you type a website name e.g, https://www.google.com, in your browser and press Enter, you are initiating a complex sequence of events that involves several components, each with a specific role to play. Let's take a look at each of these components in detail.
+
+1. DNS request
+The first step is to convert the URL into an IP address that the computer can understand. This is done using a DNS (Domain Name System) server. The browser sends a DNS request to the DNS server to look up the IP address associated with the domain name www.google.com.
+
+2. TCP/IP
+Once the IP address is obtained, the browser establishes a TCP (Transmission Control Protocol) connection with the web server using the IP address. TCP is responsible for ensuring that data is transmitted between the browser and the web server without any errors.
+
+3. Firewall
+Before the TCP connection is established, the data is first checked by the firewall. The firewall checks the data packets to ensure that they are not malicious and do not contain any viruses or malware.
+
+4. HTTPS/SSL
+If the website uses HTTPS (HyperText Transfer Protocol Secure), an SSL (Secure Sockets Layer)/TLS (Transport Layer Security) connection is established. This ensures that the data exchanged between the browser and the web server is encrypted and secure. The SSL/TLS certificate is verified to ensure that it is valid and issued by a trusted authority.
+
+5. Load-balancer
+If the website is hosted on multiple servers, a load-balancer distributes incoming traffic across the servers. This ensures that the website can handle a large number of visitors without slowing down or crashing. The load-balancer checks the load on each server and routes traffic to the least busy server.
+
+6. Web server
+The web server receives the request from the browser and retrieves the appropriate web page from the website's file system. It processes any dynamic content, such as server-side scripts or databases, and generates an HTML response.
+
+7. Application server
+If dynamic content is required, the web server sends a request to an application server, which processes the request, retrieves the necessary data from a database, and generates a response. The application server may also perform additional processing, such as authentication, before returning the response to the web server.
+
+8. Database
+If the web page requires data from a database, the application server retrieves the data from the database and uses it to generate the response. The database may be hosted on a separate server or on the same server as the application server.
+
+In conclusion, when you type https://www.google.com in your browser and press Enter, a complex chain of events is set in motion, involving DNS requests, TCP/IP connections, firewalls, HTTPS/SSL encryption, load-balancers, web servers, application servers, and databases. All of these components work together seamlessly to provide you with the web page you requested, typically within seconds
